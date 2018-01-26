@@ -1,0 +1,78 @@
+.logo{
+    background-image:url(../img/HT-big-logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background: coral;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+.shop-button{
+    color: #F3ECF6;
+    background: #8C8092;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.shop-button:hover{
+    text-decoration: none;
+}
+
+header {
+    background: #999;
+    height: 80px;
+}
+
+.desktop-nav{
+    margin: 0;
+    width: 100%;
+}
+
+.desktop-nav ul{
+    background: skyblue;
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin: 20px 10px 0 10px;
+}
+
+.desktop-nav li{
+    display: inline-block;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.hero{
+    background-image: url('../img/HT-hero-pic.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+
+.hero-image{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero-container {
+    margin-left: 50%;
+}
+
+.hero-container a{
+    margin-top:300px;
+    display: inline-block;
+}
+
+.gift-box-container{
+    height: 400px;
+    background: lavender;
+}
