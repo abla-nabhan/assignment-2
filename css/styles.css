@@ -11,6 +11,10 @@
     margin-top: 20px;
 }
 
+ul{
+    text-decoration: none;
+}
+
 .shop-button{
     color: #F3ECF6;
     background: #8C8092;
@@ -28,6 +32,7 @@ header {
     height: 80px;
 }
 
+/* DESKTOP NAV***************************************************** */
 .desktop-nav{
     margin: 0;
     width: 100%;
@@ -45,9 +50,14 @@ header {
     display: inline-block;
 }
 
+
+/* MOBILE NAV***************************************************** */
+
 .mobile-nav{
     display: none;
 }
+
+/* HERO SECTION***************************************************** */
 
 .hero{
     background-image: url('../img/HT-hero-pic.jpg');
@@ -68,11 +78,103 @@ header {
 }
 
 .hero-container a{
-    margin-top:300px;
+    margin-top:350px;
     display: inline-block;
 }
 
+/* GIFT BOX SECTION***************************************************** */
+
 .gift-box-container{
-    height: 400px;
+    margin-top: 20px;
+    height: 200px;
     background: lavender;
+}
+
+.gift-box-container a{
+    margin-top: 100px;
+    margin-left: 50%;
+    display: inline-block;
+}
+
+/* PRODUCTS SECTION***************************************************** */
+
+.products-container{
+    margin-top: 20px;
+    height: 400px;
+    background: skyblue;
+}
+
+.jewelry-card{
+    display: inline-block;
+    height: 300px;
+    width: calc(50% - 100px);
+    background: #999;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.silk-card{
+    display: inline-block;
+    height: 300px;
+    width: calc(50% - 100px);
+    background: #999;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+/* FEATURED COLLECTION SECTION***************************************************** */
+
+.featured-collection-container{
+    margin-top: 20px;
+    height:400px;
+    background: coral;
+}
+
+.collection-card{
+    display: inline-block;
+    height: 300px;
+    width: calc(50% - 100px);
+    background: #555;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.collection-text-card{
+    display: inline-block;
+    height: 300px;
+    width: calc(50% - 100px);
+    background: #999;
+}
+
+
+/* FOOTER***************************************************** */
+
+footer{
+    margin-top:20px;
+    height: 400px;
+    background: black;
+}
+
+footer h1{
+    color :white;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+footer .form{
+    display: inline-block;
+    height: 300px;
+    width: calc(60% - 100px);
+    background: grey;
+    margin-left: 50px;
+}
+
+footer .info{
+    display: inline-block;
+    height: 300px;
+    width: calc(40% - 100px);
+    background: #999;
+    margin-left: 50px;
+
 }
