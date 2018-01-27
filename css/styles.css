@@ -1,14 +1,23 @@
+
+/* GENERAL STYLES ****************************************************/
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+
 .logo{
-    background-image:url(../img/HT-big-logo.png);
+    background-image:url('../img/HT-full-logo.svg');
     height: 50px;
     width: 100px;
-    background-size: cover;
-    background-size: 40px;
+    /* background-size: 100px; */
     background-repeat: no-repeat;
     background: coral;
-    display: inline-block;
-    float: left;
+    /* display: inline-block; */
+    /* float: left; */
     margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
 }
 
 ul{
@@ -33,6 +42,7 @@ header {
 }
 
 /* DESKTOP NAV***************************************************** */
+
 .desktop-nav{
     margin: 0;
     width: 100%;
@@ -43,7 +53,7 @@ header {
     list-style: none;
     padding: 0;
     float: right;
-    margin: 20px 10px 0 10px;
+    margin: 20px 30px 0 0;
 }
 
 .desktop-nav li{
