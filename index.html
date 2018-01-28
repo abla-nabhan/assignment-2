@@ -16,7 +16,7 @@
       <header>
 
 
-<!-- Desktop Nav *************************************************************-->
+<!-- DESKTOP NAV *************************************************************-->
       <div class="desktop-nav">
           <div class="logo"></div>
           <ul>
@@ -27,24 +27,21 @@
               <button class='shop-button'>Shop</button>
           </ul>
       </div>
-<!--Mobile Nav *************************************************************-->
+<!--MOBILE NAV *************************************************************-->
       <div class="mobile-nav">
-          <div class="hamburger-container">
+          <!-- <div class="hamburger-container"> -->
               <button><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
-          </div>
-          <div class="logo-container">
+          <!-- </div> -->
+          <!-- <div class="logo-container"> -->
               <div class="logo"></div>
-          </div>
-          <div class="search-container">
-              <button><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
-          </div>
+          <!-- </div> -->
 
       </div>
       </header>
 
 </header>
 
-<!-- Hero Section *************************************************************-->
+<!-- HERO SECTION *************************************************************-->
 
 <section class='hero'>
             <div class="hero-container">
@@ -54,35 +51,62 @@
 </section>
 
 
-
-<section class='gift-box'>
-            <div class="gift-box-container">
-                <a href="#" class='shop-button'>Shop Gift Boxes</a>
-            </div>
-</section>
-
-
-
+<!-- PRODUCT CARDS SECTION ************************************************-->
 <section class='products-container'>
+
             <div class="jewelry-card">
+                <h1>Jewelry</h1>
+                <div class="jewelry-card-popup">
                 <a href="#" class='shop-button'>Shop Jewelry</a>
+                </div>
             </div>
+
 
             <div class="silk-card">
+              <h1>Silk</h1>
+              <div class="silk-card-popup">
                 <a href="#" class='shop-button'>Shop Silk</a>
+              </div>
             </div>
 
 </section>
 
+<!-- FEATURED COLLECTION SECTION ******************************************-->
 <section class='featured-collection-container'>
             <div class="collection-card"></div>
 
             <div class="collection-text-card"></div>
 </section>
 
+
+<!-- FOOTER SECTION ******************************************-->
+
 <footer>
-            <h1>Contact Us</h1>
-            <div class="form"></div>
+          <hr>
+          <div class='contact-card'>
+              <h1>Contact Us</h1>
+              <form>
+                    <label for='firstname-input'>Full Name</label>
+                    <input  type='text'
+                            name='firstname'
+                            ID='firstname-input'
+                            value=''
+                            placeholder='Example: Jane Doe'>
+
+                    <label for='email-input'>Email Address</label>
+                    <input  type='text'
+                            name='email'
+                            ID='email-input'
+                            value=''
+                            placeholder='example@example.com'>
+
+                    <label for='textarea'>Message</label>
+                    <textarea name='comments'></textarea>
+                    <button class='submit'>Submit</button>
+              </form>
+          </div>
+
+
             <div class="info"></div>
 </footer>
 
