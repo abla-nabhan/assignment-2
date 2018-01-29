@@ -143,6 +143,13 @@ header {
     background: linear-gradient(to bottom, white 4%, #29222C);
 }
 
+.products-container h1{
+  width: 100%;
+  text-align: center;
+  color: #29222C;
+  margin-bottom: 50px;
+}
+
 .products-container a{
   display: inline-block;
   width: 100%;
@@ -218,27 +225,48 @@ header {
 /* FEATURED COLLECTION SECTION***************************************************** */
 
 .featured-collection-container{
-    height:400px;
+    height:600px;
+    width: 100%;
     background: #29222C;
+    display: inline-block;
+}
+
+.featured-collection-container h1{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.collection-text h1{
+      border-bottom: 2px solid white;
+}
+
+.featured-collection-container p{
+    display: inline-block;
 }
 
 .collection-card{
     display: inline-block;
-    height: 300px;
-    width: calc(50% - 100px);
-    background: #555;
-    margin-top: 50px;
-    margin-left: 75px;
+    height: 400px;
+    width: calc(60% - 70px);
+    background-image: url('../img/collection-pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 50px;
+    float: left;
 }
 
-.collection-text-card{
+.collection-text{
     display: inline-block;
-    height: 300px;
-    width: calc(50% - 100px);
-    background: #999;
+    height: 400px;
+    width: calc(40% - 50px);
+    margin-left: 5px;
+    background: pink;
+    float: right;
+    margin-right: 60px;
 }
-
-
 /* FOOTER***************************************************** */
 
 footer{
@@ -312,8 +340,8 @@ button{
   }
 
   .products-container{
-    margin-top: 30px;
-    height: 300px;
+    margin-top: 100px;
+    height: 600px;
   }
 
   .jewelry-card, .silk-card{
